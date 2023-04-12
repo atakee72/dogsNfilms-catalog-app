@@ -37,7 +37,7 @@ function Carousel({ images, href }) {
               />
             </Link>
             <div>
-              <Link href={href[index]}>Let's go to the {href[index]}!</Link>
+              <Link href={href[index]}>Let us go to the {href[index]}!</Link>
             </div>
           </div>
         ))}
