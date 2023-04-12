@@ -6,7 +6,7 @@ function useFetchData(url) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "51c56cf87bmsh690b7b5c4046e44p16b452jsnd442fe3cba2e",
+      "X-RapidAPI-Key": process.env.API_KEY,
       "X-RapidAPI-Host": "moviesdatabase.p.rapidapi.com",
     },
   };
