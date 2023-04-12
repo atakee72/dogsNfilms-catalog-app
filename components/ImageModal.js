@@ -26,9 +26,9 @@ const ImageModal = ({ src, alt }) => {
             <img
               src={src}
               alt={alt}
-              className="md:max-w-screen-lg md:max-h-screen-3/4 mx-auto"
+              className="md:max-w-screen-lg md:max-h-screen-3/4 mx-auto object-cover"
             />
-            <caption className="block text-right">
+            <caption className="inline-block text-right bg-white text-black">
               Click outside to close
             </caption>
           </div>

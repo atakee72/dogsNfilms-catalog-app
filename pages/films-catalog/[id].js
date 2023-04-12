@@ -35,12 +35,14 @@ export default function Film() {
             <ImageModal src={film?.primaryImage?.url} alt="Film's main image" />
           ) : (
             <img
-              className="h-auto w-48 hover:brightness-110"
+              className="h-auto w-48 hover:brightness-110 object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
               alt="Film's main image"
             />
           )}
-
+          <caption className="inline-block text-right bg-white text-black">
+            Click to enlarge
+          </caption>
           <caption className="text-sm ">
             {film?.primaryImage?.caption.plainText}
           </caption>
