@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -27,9 +28,11 @@ function Carousel({ images, href }) {
             className="flex justify-center items-center space-x-12"
           >
             <Link href={href[index]}>
-              <img
+              <Image
                 src={image}
                 alt={`Slide ${index + 1}`}
+                width={800}
+                height={800}
                 className="w-48 h-48 sm:w-96 sm:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
               />
             </Link>
