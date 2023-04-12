@@ -11,9 +11,9 @@ function Carousel({ images, href }) {
         autoPlay
         // animationType="fadeout"
         autoPlayInterval={2000}
-        autoPlayStrategy="all"
+        autoPlayStrategy={"all"}
         buttonsDisabled={false}
-        controlsStrategy="responsive"
+        controlsStrategy={"responsive"}
         // keyboardNavigation="Space"
         dotsDisabled={false}
         paddingLeft={0}
@@ -25,7 +25,7 @@ function Carousel({ images, href }) {
         items={images.map((image, index) => (
           <div
             key={index}
-            className="flex justify-center items-center space-x-12"
+            className={"flex justify-center items-center space-x-12"}
           >
             <Link href={href[index]}>
               <Image
@@ -33,7 +33,9 @@ function Carousel({ images, href }) {
                 alt={`Slide ${index + 1}`}
                 width={900}
                 height={900}
-                className="w-48 h-48 sm:w-96 sm:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
+                className={
+                  "w-48 h-48 sm:w-96 sm:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
+                }
               />
             </Link>
             <div>
