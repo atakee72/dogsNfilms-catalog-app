@@ -32,12 +32,12 @@ export default function Film() {
             {film?.titleText?.text} - {film?.releaseYear.year}
           </div>
           {film?.primaryImage?.url ? (
-            <ImageModal src={film?.primaryImage?.url} alt="Film's main image" />
+            <ImageModal src={film?.primaryImage?.url} alt="Film main image" />
           ) : (
             <img
               className="h-auto w-48 hover:brightness-110 object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
-              alt="Film's main image"
+              alt="Film main image"
             />
           )}
           <caption className="inline-block text-right bg-white text-black">

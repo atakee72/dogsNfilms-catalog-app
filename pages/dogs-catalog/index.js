@@ -14,7 +14,7 @@ export default function Dogs() {
                 <img
                   className="h-auto w-48 hover:brightness-110"
                   src={dog.image}
-                  alt="Dog's image"
+                  alt="Dog image"
                 />
               </Link>
             </li>

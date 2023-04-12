@@ -25,7 +25,7 @@ export default function Films() {
                         height={900}
                         width={900}
                         src={film?.primaryImage?.url}
-                        alt="Film's main image"
+                        alt="Film main image"
                       />
                     ) : (
                       <Image
@@ -33,7 +33,7 @@ export default function Films() {
                         width={900}
                         height={900}
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
-                        alt="Film's main image"
+                        alt="Film main image"
                       />
                     )}
                   </Link>
