@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Layout from "@/components/Layout";
 import useFetchData from "@/hooks/useFetchData";
+import Image from "next/image";
 
 export default function Films() {
   const { data, done } = useFetchData(
@@ -19,14 +20,18 @@ export default function Films() {
                   <Link href={`films-catalog/${film?.id}`}>
                     {film?.titleText?.text}
                     {film?.primaryImage?.url ? (
-                      <img
+                      <Image
                         className="h-auto w-48 hover:brightness-110"
+                        height={900}
+                        width={900}
                         src={film?.primaryImage?.url}
                         alt="Film's main image"
                       />
                     ) : (
-                      <img
+                      <Image
                         className="h-auto w-48 hover:brightness-110"
+                        width={900}
+                        height={900}
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
                         alt="Film's main image"
                       />

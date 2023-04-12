@@ -31,8 +31,8 @@ function Carousel({ images, href }) {
               <Image
                 src={image}
                 alt={`Slide ${index + 1}`}
-                width={800}
-                height={800}
+                width={900}
+                height={900}
                 className="w-48 h-48 sm:w-96 sm:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
               />
             </Link>

@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import dogs from "../api/dogs.json";
+import Image from "next/image";
 
 export default function Dog() {
   const router = useRouter();
@@ -25,7 +26,13 @@ export default function Dog() {
         <h1 className="justify-self-start text-7xl ">{dog?.name}</h1>
         <div>
           <div>
-            <img src={dog?.image} className="h-auto w-96" alt="dog picture" />
+            <Image
+              src={dog?.image}
+              width={900}
+              height={900}
+              className="h-auto w-96"
+              alt="dog picture"
+            />
           </div>
         </div>
         <div className="text-center md:text-left">
