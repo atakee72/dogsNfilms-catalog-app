@@ -20,7 +20,7 @@ export default function Films() {
                   <Link href={`films-catalog/${film?.id}`}>
                     {film?.titleText?.text}
                     {film?.primaryImage?.url ? (
-                      <Image
+                      <img
                         className="h-auto w-48 hover:brightness-110"
                         height={900}
                         width={900}
@@ -28,7 +28,7 @@ export default function Films() {
                         alt="Film main image"
                       />
                     ) : (
-                      <Image
+                      <img
                         className="h-auto w-48 hover:brightness-110"
                         width={900}
                         height={900}

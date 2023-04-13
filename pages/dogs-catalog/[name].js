@@ -26,7 +26,7 @@ export default function Dog() {
         <h1 className="justify-self-start text-7xl ">{dog?.name}</h1>
         <div>
           <div>
-            <Image
+            <img
               src={dog?.image}
               width={900}
               height={900}
