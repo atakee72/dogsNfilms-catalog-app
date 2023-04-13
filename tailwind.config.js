@@ -6,6 +6,9 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    flex: {
+      inherit: "inherit",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

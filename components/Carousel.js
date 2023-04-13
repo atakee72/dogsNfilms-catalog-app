@@ -24,17 +24,37 @@ function Carousel({ images, href }) {
         items={images.map((image, index) => (
           <div
             key={index}
-            className="flex flex-column sm:flex-row justify-center items-center space-x-12 -z-50"
+            className="flex flex-column flex-wrap sm:flex-row justify-center items-center space-x-12 -z-50"
           >
-            <Link href={href[index]}>
-              <img
-                src={image}
-                alt={`Slide ${index + 1}`}
-                className="min-w-96 min-h-96 md:w-96 md:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
-              />
-            </Link>
             <div>
-              <Link href={href[index]}>Let us go to the {href[index]}!</Link>
+              <Link href={href[index]}>
+                <img
+                  src={image}
+                  alt={`Slide ${index + 1}`}
+                  className="min-w-full flex-inherit min-h-full md:w-96 md:h-96 px-0 mx-0 rounded-3xl"
+                />
+              </Link>
+            </div>
+            <div className="my-5">
+              <Link href={href[index]}>
+                <span className="text-center">
+                  Let us go to the {href[index]}!
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>
+              </Link>
             </div>
           </div>
         ))}
