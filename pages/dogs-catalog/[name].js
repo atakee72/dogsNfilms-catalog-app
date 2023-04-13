@@ -16,14 +16,14 @@ export default function Dog() {
 
   return (
     <Layout>
-      <div className="flex justify-center my-9 ">
+      <div className="flex justify-center my-9 p-5">
         <a href="#" onClick={() => router.back()}>
           Back
         </a>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-evenly">
         {" "}
-        <h1 className="justify-self-start text-7xl ">{dog?.name}</h1>
+        <h1 className="justify-self-start text-7xl p-5">{dog?.name}</h1>
         <div>
           <div>
             <img
@@ -35,7 +35,7 @@ export default function Dog() {
             />
           </div>
         </div>
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left p-5 p">
           <p>Age in weeks: &emsp; {dog?.ageInWeeks}</p>
           <p>Breed: &emsp;{dog?.breed}</p>
           <p>Color:&emsp;{dog?.color}</p>
