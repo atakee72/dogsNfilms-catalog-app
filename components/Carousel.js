@@ -24,7 +24,7 @@ function Carousel({ images, href }) {
         items={images.map((image, index) => (
           <div
             key={index}
-            className={"flex justify-center items-center space-x-12"}
+            className={"flex justify-center items-center space-x-12 -z-50"}
           >
             <Link href={href[index]}>
               <img

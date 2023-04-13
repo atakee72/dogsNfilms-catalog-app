@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <ul className="flex flex-col sm:flex-row justify-around bg-slate-400 text-black h-32 sm:h-12 items-center font-semibold mb-7 fixed top-0 w-full ">
+    <ul className="flex z-50 flex-col sm:flex-row justify-around bg-slate-400 text-black h-32 sm:h-12 items-center font-semibold mb-7 fixed top-0 w-full ">
       <Link href="/dogs-catalog">Dogs catalog</Link>
       <Link href="/films-catalog">Films catalog</Link>
       <Link href="/">Home</Link>
@@ -22,7 +22,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Navbar />
-      <div className="mt-32 md:mt-24"> {children}</div>
+      <div className="my-24"> {children}</div>
       <Footer />
     </div>
   );
