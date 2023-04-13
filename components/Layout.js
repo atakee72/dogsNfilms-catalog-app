@@ -12,7 +12,7 @@ function Navbar() {
 
 function Footer() {
   return (
-    <div className=" h-12 bg-slate-400 fixed bottom-0 w-full text-black font-semibold text-center flex items-center justify-center">
+    <div className=" h-24 sm:h-12 bg-slate-400 fixed bottom-0 w-full text-black font-semibold text-center flex items-center justify-center">
       Copyrighted
     </div>
   );
@@ -22,7 +22,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Navbar />
-      <div className="my-24"> {children}</div>
+      <div className="my-32 sm:my-24"> {children}</div>
       <Footer />
     </div>
   );

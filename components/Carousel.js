@@ -24,17 +24,13 @@ function Carousel({ images, href }) {
         items={images.map((image, index) => (
           <div
             key={index}
-            className={"flex justify-center items-center space-x-12 -z-50"}
+            className="flex flex-column sm:flex-row justify-center items-center space-x-12 -z-50"
           >
             <Link href={href[index]}>
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                width={900}
-                height={900}
-                className={
-                  "w-48 h-48 sm:w-96 sm:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
-                }
+                className="min-w-96 min-h-96 md:w-96 md:h-96 object-fit px-0 mx-0 object-center rounded-3xl"
               />
             </Link>
             <div>
