@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Films() {
   const { data, done } = useFetchData(
-    "https://moviesdatabase.p.rapidapi.com/titles"
+    `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=en-US`
   );
   console.log("🚀 ~ Films ~ data:", data);
 
@@ -18,20 +18,18 @@ export default function Films() {
               return (
                 <li className=" flex flex-column" key={film?.id}>
                   <Link href={`films-catalog/${film?.id}`}>
-                    {film?.titleText?.text}
-                    {film?.primaryImage?.url ? (
+                    {film?.original_title}
+                    {film?.poster_path ? (
                       <img
                         className="h-auto w-48 hover:brightness-110"
-                        height={900}
-                        width={900}
-                        src={film?.primaryImage?.url}
+                        src={
+                          "https://image.tmdb.org/t/p/w500" + film?.poster_path
+                        }
                         alt="Film main image"
                       />
                     ) : (
                       <img
                         className="h-auto w-48 hover:brightness-110"
-                        width={900}
-                        height={900}
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
                         alt="Film main image"
                       />
