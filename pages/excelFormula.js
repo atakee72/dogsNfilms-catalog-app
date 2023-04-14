@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function excelFormula() {
+export default function ExcelFormula() {
   const [description, setDescription] = useState("");
   const [data, setData] = useState(null);
   const [dataExp, setDataExp] = useState(null);
