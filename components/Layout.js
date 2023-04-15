@@ -22,7 +22,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Navbar />
-      <div className="my-32 sm:my-24 px-3"> {children}</div>
+      <div className="my-32 sm:my-20 px-3"> {children}</div>
       <Footer />
     </div>
   );
