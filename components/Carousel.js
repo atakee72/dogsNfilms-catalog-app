@@ -5,7 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 function Carousel({ images, href }) {
   return (
-    <div className="w-7/12 mx-0 px-0 bg-slate-900 rounded-3xl ">
+    <div className="w-full sm:w-9/12 md:w-7/12 mx-0 px-0 bg-slate-900 rounded-3xl ">
       <AliceCarousel
         autoPlay
         // animationType="fadeout"
@@ -31,7 +31,7 @@ function Carousel({ images, href }) {
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}
-                  className="w-9/12 flex-inherit h-9/12 md:w-96 md:h-96 px-0 mx-0 rounded-3xl my-5"
+                  className="w-32 h-32 sm:w-48 sm:h-48 md:w-96 md:h-96 px-0 mx-0 rounded-3xl my-3"
                 />
               </Link>
             </div>
