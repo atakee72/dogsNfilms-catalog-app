@@ -12,7 +12,7 @@ export default function Dogs() {
               <Link href={`dogs-catalog/${dog.name}`}>
                 {dog.name}
                 <img
-                  className="h-auto w-48 hover:brightness-110"
+                  className="h-auto  w-48 hover:brightness-110"
                   src={dog.image}
                   alt="Dog image"
                 />
