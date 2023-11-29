@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Roman Holiday",
+    "year": 1953,
+    "awards": "Academy Awards for Best Actress (Audrey Hepburn)",
+    "mainActorsActresses": ["Audrey Hepburn", "Gregory Peck"],
+    "examplesOfOtherMovies": [
+      "Breakfast at Tiffany's (Hepburn)",
+      "To Kill a Mockingbird (Peck)"
+    ],
+    "awardsForMainActors": [
+      "Hepburn - Academy Awards",
+      "Peck - Academy Awards",
+      "Golden Globe"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/21277.jpg",
+    "movieSummary": "A timeless romantic comedy directed and produced by William Wyler, \"Roman Holiday\" follows the enchanting journey of Princess Ann, portrayed by the iconic Audrey Hepburn. Bored with her sheltered life, Princess Ann escapes her guardians and encounters the charismatic American newsman Joe Bradley, played by Gregory Peck, in the romantic backdrop of Rome. The film beautifully captures the blossoming love between the two protagonists as they explore the city together, leading to heartfelt moments and unexpected adventures."
+  },
+  {
+    "name": "An Affair to Remember",
+    "year": 1957,
+    "awards": "Nominated for four Academy Awards",
+    "mainActorsActresses": ["Cary Grant", "Deborah Kerr"],
+    "examplesOfOtherMovies": [
+      "North by Northwest (Grant)",
+      "From Here to Eternity (Kerr)"
+    ],
+    "awardsForMainActors": [
+      "Grant - Honorary Oscar",
+      "Kerr - six Academy Award nominations"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/19959.jpg",
+    "movieSummary": "Directed by Leo McCarey, \"An Affair to Remember\" is a classic romantic drama featuring the captivating performances of Cary Grant and Deborah Kerr. Nominated for four Academy Awards, the film revolves around a poignant love story that unfolds when Nickie Ferrante and Terry McKay meet and fall deeply in love during a transatlantic voyage. The film's emotional depth and iconic scenes have secured its place among the most cherished romantic movies of all time."
+  },
+  {
+    "name": "Casablanca",
+    "year": 1942,
+    "awards": "Won three Academy Awards, including Best Picture",
+    "mainActorsActresses": ["Humphrey Bogart", "Ingrid Bergman"],
+    "examplesOfOtherMovies": [
+      "The Maltese Falcon (Bogart)",
+      "Notorious (Bergman)"
+    ],
+    "awardsForMainActors": [
+      "Bogart - Academy Award",
+      "Bergman - three Academy Awards"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/18807.jpg",
+    "movieSummary": "\"Casablanca,\" directed by Michael Curtiz, is a legendary romantic drama set against the backdrop of World War II. Starring Humphrey Bogart and Ingrid Bergman, the film is renowned for its captivating narrative, memorable dialogue, and timeless themes of love and sacrifice. The story unfolds in the titular city of Casablanca, blending romance, intrigue, and political turmoil in a masterfully crafted cinematic experience."
+  },
+  {
+    "name": "Gone with the Wind",
+    "year": 1939,
+    "awards": "Won eight Academy Awards, including Best Picture",
+    "mainActorsActresses": ["Clark Gable", "Vivien Leigh"],
+    "examplesOfOtherMovies": [
+      "It Happened One Night (Gable)",
+      "A Streetcar Named Desire (Leigh)"
+    ],
+    "awardsForMainActors": [
+      "Gable - Academy Award",
+      "Leigh - two Academy Awards"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/2767.jpg",
+    "movieSummary": "Directed by Victor Fleming, \"Gone with the Wind\" is an epic historical romance film based on Margaret Mitchell's novel. Set against the backdrop of the American Civil War and Reconstruction era, the film stars Clark Gable and Vivien Leigh in iconic roles. Renowned for its sweeping narrative and dramatic intensity, the movie follows the tumultuous romance between Scarlett O'Hara and Rhett Butler amidst the challenges of a changing South."
+  },
+  {
+    "name": "Breakfast at Tiffany's",
+    "year": 1961,
+    "awards": "Won two Academy Awards",
+    "mainActorsActresses": ["Audrey Hepburn", "George Peppard"],
+    "examplesOfOtherMovies": [
+      "Roman Holiday (Hepburn)",
+      "The A-Team (Peppard)"
+    ],
+    "awardsForMainActors": [
+      "Hepburn - Academy Awards",
+      "Peppard - Primetime Emmy"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/20582.jpg",
+    "movieSummary": "Directed by Blake Edwards and based on Truman Capote's novella, \"Breakfast at Tiffany's\" is a stylish romantic comedy starring Audrey Hepburn as the iconic Holly Golightly. The film explores the quirky and captivating life of Holly, a New York socialite, and her complex relationship with a struggling writer played by George Peppard. With its timeless charm and Hepburn's iconic portrayal, the movie remains a classic in the romance genre."
+  },
+  {
+    "name": "West Side Story",
+    "year": 1961,
+    "awards": "Won ten Academy Awards, including Best Picture",
+    "mainActorsActresses": ["Natalie Wood", "Richard Beymer"],
+    "examplesOfOtherMovies": [
+      "Rebel Without a Cause (Wood)",
+      "The Diary of Anne Frank (Beymer)"
+    ],
+    "awardsForMainActors": [
+      "Wood - three Academy Award nominations",
+      "Beymer - Golden Globe nomination"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/6392.jpg",
+    "movieSummary": "A cinematic masterpiece directed by Robert Wise and Jerome Robbins, \"West Side Story\" is a musical romantic drama that reimagines Shakespeare's \"Romeo and Juliet\" in the vibrant setting of 1950s New York City. With a groundbreaking blend of music, dance, and powerful storytelling, the film explores the forbidden love between Tony and Maria, members of rival street gangs. Boasting ten Academy Awards, including Best Picture, \"West Side Story\" is celebrated for its innovative approach to filmmaking and timeless themes."
+  },
+  {
+    "name": "The Sound of Music",
+    "year": 1965,
+    "awards": "Won five Academy Awards, including Best Picture",
+    "mainActorsActresses": ["Julie Andrews", "Christopher Plummer"],
+    "examplesOfOtherMovies": [
+      "Mary Poppins (Andrews)",
+      "The Man Who Would Be King (Plummer)"
+    ],
+    "awardsForMainActors": [
+      "Andrews - Academy Award",
+      "Plummer - Academy Award"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/5260.jpg",
+    "movieSummary": "Directed by Robert Wise, \"The Sound of Music\" is a beloved musical that has left an indelible mark on cinema history. Starring Julie Andrews and Christopher Plummer, the film tells the heartwarming story of Maria, a governess who brings joy and music to the von Trapp family. Against the backdrop of the Austrian Alps, the movie is celebrated for its enchanting musical numbers and the timeless theme of the transformative power of love and music."
+  },
+  {
+    "name": "My Fair Lady",
+    "year": 1964,
+    "awards": "Won eight Academy Awards, including Best Picture",
+    "mainActorsActresses": ["Audrey Hepburn", "Rex Harrison"],
+    "examplesOfOtherMovies": [
+      "Roman Holiday (Hepburn)",
+      "Cleopatra (Harrison)"
+    ],
+    "awardsForMainActors": [
+      "Hepburn - Academy Awards",
+      "Harrison - Academy Award"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/5021.jpg",
+    "movieSummary": "Based on George Bernard Shaw's play \"Pygmalion,\" \"My Fair Lady\" is a musical romantic comedy directed by George Cukor. Starring Audrey Hepburn as Eliza Doolittle and Rex Harrison as Professor Henry Higgins, the film explores the transformative journey of a Cockney flower girl into a refined lady. With its unforgettable music and captivating performances, \"My Fair Lady\" received critical acclaim and won eight Academy Awards, including Best Picture."
+  },
+  {
+    "name": "Doctor Zhivago",
+    "year": 1965,
+    "awards": "Won five Academy Awards",
+    "mainActorsActresses": ["Omar Sharif", "Julie Christie"],
+    "examplesOfOtherMovies": [
+      "Lawrence of Arabia (Sharif)",
+      "Darling (Christie)"
+    ],
+    "awardsForMainActors": [
+      "Sharif - Golden Globe",
+      "Christie - Academy Award"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/12219.jpg",
+    "movieSummary": "Directed by David Lean, \"Doctor Zhivago\" is an epic romantic drama set against the backdrop of the Russian Revolution. Starring Omar Sharif and Julie Christie, the film follows the life of Yuri Zhivago, a physician and poet, and his love for Lara Antipova amidst the turmoil of war. Known for its sweeping landscapes and emotional depth, \"Doctor Zhivago\" won five Academy Awards and remains a cinematic masterpiece."
+  },
+  {
+    "name": "The Graduate",
+    "year": 1967,
+    "awards": "Won one Academy Award",
+    "mainActorsActresses": ["Dustin Hoffman", "Anne Bancroft"],
+    "examplesOfOtherMovies": [
+      "Rain Man (Hoffman)",
+      "The Miracle Worker (Bancroft)"
+    ],
+    "awardsForMainActors": [
+      "Hoffman - two Academy Awards",
+      "Bancroft - Academy Award"
+    ],
+    "posterUrl": "https://www.filmposters.com/images/posters/5674.jpg",
+    "movieSummary": "Directed by Mike Nichols, \"The Graduate\" is a landmark coming-of-age film that explores the complexities of love and societal expectations. Starring Dustin Hoffman and Anne Bancroft, the movie follows the story of Benjamin Braddock, a recent college graduate, and his affair with Mrs. Robinson, an older woman. With its iconic soundtrack and cultural impact, \"The Graduate\" remains a classic in the realm of cinematic storytelling."
+  }
+]

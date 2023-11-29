@@ -1,3 +1,5 @@
+//still considering to publish this under another link in the navigation bar as a fetching showcase...
+
 import React, { useState } from "react";
 
 export default function ExcelFormula() {
@@ -12,7 +14,7 @@ export default function ExcelFormula() {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "51c56cf87bmsh690b7b5c4046e44p16b452jsnd442fe3cba2e",
+        "X-RapidAPI-Key": process.env.API_KEY,
         "X-RapidAPI-Host": "excel-ai-formula-generator.p.rapidapi.com",
       },
     };

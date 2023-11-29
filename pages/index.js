@@ -1,9 +1,8 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Layout from "@/components/Layout";
 import Carousel from "@/components/Carousel";
 
-// const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 const images = [
   "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*",
