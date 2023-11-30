@@ -1,17 +1,20 @@
 import Link from "next/link";
+import Image from "next/image";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 function Carousel({ images, href }) {
   return (
-    <div className="w-full sm:w-9/12 md:w-7/12 mx-0 px-0 bg-slate-900 rounded-3xl ">
+    <div className="w-full text-white text-lg font-bold sm:w-9/12 md:w-7/12 mx-0 px-0 bg-black/50 rounded-3xl ">
       <AliceCarousel
+        renderPrevButton={false}
         autoPlay
-        // animationType="fadeout"
-        autoPlayInterval={2000}
+        animationType="fadeout"
+        autoPlayInterval={3000}
         autoPlayStrategy={"all"}
         buttonsDisabled={false}
         controlsStrategy={"responsive"}
+        animationEasingFunction={"ease"}
         // keyboardNavigation="Space"
         dotsDisabled={false}
         paddingLeft={0}
@@ -23,21 +26,25 @@ function Carousel({ images, href }) {
         items={images.map((image, index) => (
           <div
             key={index}
-            className="flex flex-column flex-wrap sm:flex-row justify-center items-center space-x-12 -z-50"
+            className="flex flex-column flex-wrap sm:flex-row justify-center items-center space-x-12 -z-50 pt-16"
           >
-            <div>
+            {/* <div> */}
+            <Link href={href[index]}>
+              <Image
+                aspect-square
+                object-cover
+                width={360}
+                height={360}
+                src={image}
+                alt={`Slide ${index + 1}`}
+                className="w-32 h-32 sm:w-48 sm:h-48 md:w-96 md:h-96 px-0 mx-0 rounded-3xl my-3"
+              />
+            </Link>
+            {/* </div> */}
+            {/* <div className="my-5">
               <Link href={href[index]}>
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className="w-32 h-32 sm:w-48 sm:h-48 md:w-96 md:h-96 px-0 mx-0 rounded-3xl my-3"
-                />
-              </Link>
-            </div>
-            <div className="my-5">
-              <Link href={href[index]}>
-                <span className="text-center">
-                  Let us go to the {href[index]}!
+                <span className="text-center uppercase">
+                  To the {catalogNames[index]}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -54,7 +61,7 @@ function Carousel({ images, href }) {
                   </svg>
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
         ))}
       />

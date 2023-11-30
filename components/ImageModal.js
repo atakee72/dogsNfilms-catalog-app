@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 const ImageModal = ({ src, alt }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,9 @@ const ImageModal = ({ src, alt }) => {
 
   return (
     <div>
-      <img
+      <Image
+        width={360}
+        height={360}
         src={src}
         alt={alt}
         onClick={handleImageClick}
@@ -23,7 +26,9 @@ const ImageModal = ({ src, alt }) => {
             onClick={handleImageClick}
           ></div>
           <div className="relative">
-            <img
+            <Image
+              width={360}
+              height={360}
               src={src}
               alt={alt}
               className="md:max-w-screen-lg md:max-h-screen-3/4 mx-auto object-cover"

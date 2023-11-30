@@ -2,10 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply text-white bg-black/90
-}
-
-.description a {
-  @apply bg-slate-400 text-black rounded-sm
-}

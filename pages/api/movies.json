@@ -1,5 +1,6 @@
 [
   {
+    "id": "1",
     "name": "Roman Holiday",
     "year": 1953,
     "awards": "Academy Awards for Best Actress (Audrey Hepburn)",
@@ -17,9 +18,10 @@
     "movieSummary": "A timeless romantic comedy directed and produced by William Wyler, \"Roman Holiday\" follows the enchanting journey of Princess Ann, portrayed by the iconic Audrey Hepburn. Bored with her sheltered life, Princess Ann escapes her guardians and encounters the charismatic American newsman Joe Bradley, played by Gregory Peck, in the romantic backdrop of Rome. The film beautifully captures the blossoming love between the two protagonists as they explore the city together, leading to heartfelt moments and unexpected adventures."
   },
   {
+    "id": "2",
     "name": "An Affair to Remember",
     "year": 1957,
-    "awards": "Nominated for four Academy Awards",
+    "awards": "was nominated for four Academy Awards",
     "mainActorsActresses": ["Cary Grant", "Deborah Kerr"],
     "examplesOfOtherMovies": [
       "North by Northwest (Grant)",
@@ -33,9 +35,10 @@
     "movieSummary": "Directed by Leo McCarey, \"An Affair to Remember\" is a classic romantic drama featuring the captivating performances of Cary Grant and Deborah Kerr. Nominated for four Academy Awards, the film revolves around a poignant love story that unfolds when Nickie Ferrante and Terry McKay meet and fall deeply in love during a transatlantic voyage. The film's emotional depth and iconic scenes have secured its place among the most cherished romantic movies of all time."
   },
   {
+    "id": "3",
     "name": "Casablanca",
     "year": 1942,
-    "awards": "Won three Academy Awards, including Best Picture",
+    "awards": "won three Academy Awards, including Best Picture",
     "mainActorsActresses": ["Humphrey Bogart", "Ingrid Bergman"],
     "examplesOfOtherMovies": [
       "The Maltese Falcon (Bogart)",
@@ -49,9 +52,10 @@
     "movieSummary": "\"Casablanca,\" directed by Michael Curtiz, is a legendary romantic drama set against the backdrop of World War II. Starring Humphrey Bogart and Ingrid Bergman, the film is renowned for its captivating narrative, memorable dialogue, and timeless themes of love and sacrifice. The story unfolds in the titular city of Casablanca, blending romance, intrigue, and political turmoil in a masterfully crafted cinematic experience."
   },
   {
+    "id": "4",
     "name": "Gone with the Wind",
     "year": 1939,
-    "awards": "Won eight Academy Awards, including Best Picture",
+    "awards": "won eight Academy Awards, including Best Picture",
     "mainActorsActresses": ["Clark Gable", "Vivien Leigh"],
     "examplesOfOtherMovies": [
       "It Happened One Night (Gable)",
@@ -65,9 +69,10 @@
     "movieSummary": "Directed by Victor Fleming, \"Gone with the Wind\" is an epic historical romance film based on Margaret Mitchell's novel. Set against the backdrop of the American Civil War and Reconstruction era, the film stars Clark Gable and Vivien Leigh in iconic roles. Renowned for its sweeping narrative and dramatic intensity, the movie follows the tumultuous romance between Scarlett O'Hara and Rhett Butler amidst the challenges of a changing South."
   },
   {
+    "id": "5",
     "name": "Breakfast at Tiffany's",
     "year": 1961,
-    "awards": "Won two Academy Awards",
+    "awards": "won two Academy Awards",
     "mainActorsActresses": ["Audrey Hepburn", "George Peppard"],
     "examplesOfOtherMovies": [
       "Roman Holiday (Hepburn)",
@@ -81,9 +86,10 @@
     "movieSummary": "Directed by Blake Edwards and based on Truman Capote's novella, \"Breakfast at Tiffany's\" is a stylish romantic comedy starring Audrey Hepburn as the iconic Holly Golightly. The film explores the quirky and captivating life of Holly, a New York socialite, and her complex relationship with a struggling writer played by George Peppard. With its timeless charm and Hepburn's iconic portrayal, the movie remains a classic in the romance genre."
   },
   {
+    "id": "6",
     "name": "West Side Story",
     "year": 1961,
-    "awards": "Won ten Academy Awards, including Best Picture",
+    "awards": "won ten Academy Awards, including Best Picture",
     "mainActorsActresses": ["Natalie Wood", "Richard Beymer"],
     "examplesOfOtherMovies": [
       "Rebel Without a Cause (Wood)",
@@ -97,9 +103,10 @@
     "movieSummary": "A cinematic masterpiece directed by Robert Wise and Jerome Robbins, \"West Side Story\" is a musical romantic drama that reimagines Shakespeare's \"Romeo and Juliet\" in the vibrant setting of 1950s New York City. With a groundbreaking blend of music, dance, and powerful storytelling, the film explores the forbidden love between Tony and Maria, members of rival street gangs. Boasting ten Academy Awards, including Best Picture, \"West Side Story\" is celebrated for its innovative approach to filmmaking and timeless themes."
   },
   {
+    "id": "7",
     "name": "The Sound of Music",
     "year": 1965,
-    "awards": "Won five Academy Awards, including Best Picture",
+    "awards": "won five Academy Awards, including Best Picture",
     "mainActorsActresses": ["Julie Andrews", "Christopher Plummer"],
     "examplesOfOtherMovies": [
       "Mary Poppins (Andrews)",
@@ -113,9 +120,10 @@
     "movieSummary": "Directed by Robert Wise, \"The Sound of Music\" is a beloved musical that has left an indelible mark on cinema history. Starring Julie Andrews and Christopher Plummer, the film tells the heartwarming story of Maria, a governess who brings joy and music to the von Trapp family. Against the backdrop of the Austrian Alps, the movie is celebrated for its enchanting musical numbers and the timeless theme of the transformative power of love and music."
   },
   {
+    "id": "8",
     "name": "My Fair Lady",
     "year": 1964,
-    "awards": "Won eight Academy Awards, including Best Picture",
+    "awards": "won eight Academy Awards, including Best Picture",
     "mainActorsActresses": ["Audrey Hepburn", "Rex Harrison"],
     "examplesOfOtherMovies": [
       "Roman Holiday (Hepburn)",
@@ -129,9 +137,10 @@
     "movieSummary": "Based on George Bernard Shaw's play \"Pygmalion,\" \"My Fair Lady\" is a musical romantic comedy directed by George Cukor. Starring Audrey Hepburn as Eliza Doolittle and Rex Harrison as Professor Henry Higgins, the film explores the transformative journey of a Cockney flower girl into a refined lady. With its unforgettable music and captivating performances, \"My Fair Lady\" received critical acclaim and won eight Academy Awards, including Best Picture."
   },
   {
+    "id": "9",
     "name": "Doctor Zhivago",
     "year": 1965,
-    "awards": "Won five Academy Awards",
+    "awards": "won five Academy Awards",
     "mainActorsActresses": ["Omar Sharif", "Julie Christie"],
     "examplesOfOtherMovies": [
       "Lawrence of Arabia (Sharif)",
@@ -145,9 +154,10 @@
     "movieSummary": "Directed by David Lean, \"Doctor Zhivago\" is an epic romantic drama set against the backdrop of the Russian Revolution. Starring Omar Sharif and Julie Christie, the film follows the life of Yuri Zhivago, a physician and poet, and his love for Lara Antipova amidst the turmoil of war. Known for its sweeping landscapes and emotional depth, \"Doctor Zhivago\" won five Academy Awards and remains a cinematic masterpiece."
   },
   {
+    "id": "10",
     "name": "The Graduate",
     "year": 1967,
-    "awards": "Won one Academy Award",
+    "awards": "won one Academy Award",
     "mainActorsActresses": ["Dustin Hoffman", "Anne Bancroft"],
     "examplesOfOtherMovies": [
       "Rain Man (Hoffman)",

@@ -3,9 +3,9 @@ import Link from "next/link";
 function Navbar() {
   return (
     <ul className="flex z-50 flex-col sm:flex-row justify-around bg-slate-400 text-black h-32 sm:h-12 items-center font-semibold mb-7 fixed top-0 w-full ">
+      <Link href="/">Home</Link>
       <Link href="/dogs-catalog">Dogs catalog</Link>
       <Link href="/films-catalog">Films catalog</Link>
-      <Link href="/">Home</Link>
     </ul>
   );
 }
