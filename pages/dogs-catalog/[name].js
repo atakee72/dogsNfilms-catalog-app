@@ -17,10 +17,28 @@ export default function Dog() {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center bg-black/40 text-white p-1 max-h-11/12 w-11/12 rounded-full mx-auto">
-        <div className="text-center my-10 p-1  border-white border-2 mx-auto w-1/12">
-          <a href="#" onClick={() => router.back()}>
-            Back
+      <div className="flex flex-col items-center justify-center bg-black/40 text-white p-1 max-h-11/12 w-11/12 rounded-full mx-auto ">
+        <div className="flex justify-around text-center text-sm mx-auto">
+          <a
+            className="border-white border-2 my-10 p-1 w-auto  bg-[#a9c4e8]/90 rounded-lg"
+            href="#"
+            onClick={() => router.back()}
+          >
+            {"< Back to previous"}
+          </a>
+          <a
+            className="my-10 p-1  border-white border-2 m-3 w-auto  bg-[#a9c4e8]/90 rounded-lg"
+            href="#"
+            onClick={() => router.push(`/dogs-catalog`)}
+          >
+            {"<< Back to catalog"}
+          </a>
+          <a
+            className="my-10 p-1  border-white border-2  w-auto  bg-[#a9c4e8]/90 rounded-lg"
+            href="#"
+            onClick={() => router.push(`/`)}
+          >
+            {"<<< Back to home"}
           </a>
         </div>
         <div className="flex flex-col xl:flex-row items-center justify-evenly">
@@ -56,8 +74,10 @@ export default function Dog() {
             })}
           </div>
 
-          <div className="my-10 py-1 border-white border-2 mx-auto w-2/12">
-            <button onClick={handleRandomDogClick}>Get Random Dog</button>
+          <div className="my-12 bg-[#a9c4e8]/90 rounded-lg py-1 border-white border-2 mx-auto w-3/12 shadow-lg">
+            <button onClick={handleRandomDogClick}>
+              {">> Get Random Dog <<"}
+            </button>
           </div>
         </div>
       </div>

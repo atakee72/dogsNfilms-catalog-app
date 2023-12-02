@@ -27,9 +27,27 @@ export default function Film() {
   return (
     <Layout>
       <div className="container flex flex-col items-center justify-between bg-black/40 text-white p-1 max-h-11/12 w-11/12 rounded-full mx-auto px-5 sm:px-12 pb-24 sm:pb-28">
-        <div className="text-center my-10 p-1  border-white border-2 mx-auto w-1/12">
-          <a href="#" onClick={() => router.back()}>
-            Back
+        <div className="flex justify-around text-center text-sm mx-auto">
+          <a
+            className="border-white border-2 my-10 p-1 w-auto bg-[#a9c4e8]/90 rounded-lg"
+            href="#"
+            onClick={() => router.back()}
+          >
+            {"< Back to previous"}
+          </a>
+          <a
+            className="my-10 p-1  border-white border-2 m-3 w-auto bg-[#a9c4e8]/90 rounded-lg"
+            href="#"
+            onClick={() => router.push(`/films-catalog`)}
+          >
+            {"<< Back to catalog"}
+          </a>
+          <a
+            className="my-10 p-1  border-white border-2  w-auto bg-[#a9c4e8]/90 rounded-lg"
+            href="#"
+            onClick={() => router.push(`/`)}
+          >
+            {"<<< Back to home"}
           </a>
         </div>
         {film && (
@@ -98,8 +116,8 @@ export default function Film() {
           </div>
         )}
 
-        <div className="my-10 py-1 text-center border-white border-2 mx-auto w-2/12">
-          <button onClick={handleRandomMovieClick}>Get Random Dog</button>
+        <div className="my-10 py-1 text-center border-white border-2 mx-auto w-2/12  bg-[#a9c4e8]/90 rounded-lg">
+          <button onClick={handleRandomMovieClick}>Get Random Movie</button>
         </div>
       </div>
     </Layout>

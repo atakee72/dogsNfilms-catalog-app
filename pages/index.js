@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const images = [graduate, dalmatians];
 
-const href = ["dogs-catalog", "films-catalog"];
+const href = ["films-catalog", "dogs-catalog"];
 
 export default function Home() {
   return (
