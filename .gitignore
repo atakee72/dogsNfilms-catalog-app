@@ -41,9 +41,9 @@ next-env.d.ts
 
 
 # Exclude sensitive configuration files
-next.config.js
-/next.config.js
-next.config.js/
+# next.config.js
+# /next.config.js
+# next.config.js/
 
 # Exclude build output directory
 /.next/
