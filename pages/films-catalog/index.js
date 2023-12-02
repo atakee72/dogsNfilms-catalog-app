@@ -18,37 +18,38 @@ export default function Films() {
       >
         {movies.map((film) => {
           return (
-           
             <div
               className="relative container w-6/7 h-auto flex flex-col justify-center m-0"
               key={film?.name}
             >
-              <Link
-              href={`films-catalog/${film?.id}`}
-            >
-              {/* <div className="absolute left-7 top-7 bg-white text-black font-bold p-1 rounded-md z-30">
+              <Link href={`films-catalog/${film?.id}`}>
+                {/* <div className="absolute left-7 top-7 bg-white text-black font-bold p-1 rounded-md z-30">
                 {film?.name}
               </div> */}
-              {film?.posterUrl ? (
-                <Image
-                  key={film?.name}
-                  className=" flex justify-center items-start hover:border-2  hover:border-dashed border-red"
-                  height={900}
-                  width={900}
-                  object-cover
-                  src={film?.posterUrl}
-                  alt="Film main image"
-                />
-              ) : (
-                <Image
-                  className=" hover:brightness-110"
-                  width={900}
-                  height={900}
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
-                  alt="Film main image"
-                />
+                {film?.posterUrl ? (
+                  <Image
+                    key={film?.name}
+                    className=" flex justify-center items-start hover:border-2  hover:border-dashed border-red"
+                    height={900}
+                    width={900}
+                    object-cover
+                    src={film?.posterUrl}
+                    alt="Film main image"
+                    onError={() => {
+                      // Fallback to a local image if the external image fails to load, in this case I wanna have more information about the  failure
+                      console.error(`Failed to load image: ${film?.posterUrl}`);
+                    }}
+                  />
+                ) : (
+                  <Image
+                    className=" hover:brightness-110"
+                    width={900}
+                    height={900}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png?20210219185637"
+                    alt="Film main image"
+                  />
                 )}
-                </Link>
+              </Link>
             </div>
             // </Link>
             // </li>
