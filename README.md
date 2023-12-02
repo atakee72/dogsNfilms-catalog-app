@@ -20,40 +20,44 @@ Happy coding!
 
 ## Project Structure
 
-dogs&films-catalog-app
+```
+dogs-catalog-app
 ├── .env
 ├── .eslintrc.json
 ├── .gitignore
 ├── components
-│ ├── Carousel.js
-│ ├── ImageModal.js
-│ └── Layout.js
+│   ├── Carousel.js
+│   ├── ImageModal.js
+│   └── Layout.js
 ├── hooks
 ├── jsconfig.json
 ├── next.config.js
 ├── package-lock.json
 ├── package.json
 ├── pages
-│ ├── api
-│ │ ├── dogs.json
-│ │ └── movies.json
-│ ├── dogs-catalog
-│ │ ├── index.js
-│ │ └── [name].js
-│ ├── films-catalog
-│ │ ├── index.js
-│ │ └── [id].js
-│ ├── index.js
-│ ├── _app.js
-│ └──_document.js
+│   ├── api
+│   │   ├── dogs.json
+│   │   └── movies.json
+│   ├── dogs-catalog
+│   │   ├── index.js
+│   │   └── [name].js
+│   ├── films-catalog
+│   │   ├── index.js
+│   │   └── [id].js
+│   ├── index.js
+│   ├── _app.js
+│   └── _document.js
 ├── postcss.config.js
 ├── public
-│ ├── pattern-tile.png
-│ └── pattern.svg
+│   ├── dalmatians.png
+│   ├── graduate.png
+│   ├── pattern-tile.png
+│   └── pattern.svg
 ├── README.md
 ├── styles
-│ └── globals.css
+│   └── globals.css
 └── tailwind.config.js
+```
 
 - **.env**: Configuration file for environment variables.
 - **.eslintrc.json**: Eslint configuration for maintaining code quality.
