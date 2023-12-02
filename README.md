@@ -20,8 +20,7 @@ Happy coding!
 
 ## Project Structure
 
-```
-javascript
+```javascript
 
 dogs-catalog-app
 ├── .env
