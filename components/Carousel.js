@@ -10,7 +10,7 @@ function Carousel({ images, href }) {
         renderPrevButton={false}
         autoPlay
         animationType="fadeout"
-        autoPlayInterval={3000}
+        autoPlayInterval={2000}
         autoPlayStrategy={"all"}
         buttonsDisabled={false}
         controlsStrategy={"responsive"}

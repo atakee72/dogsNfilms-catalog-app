@@ -54,11 +54,11 @@ export default function Dog() {
             />
           </div>
           <div className="text-white text-center md:text-left p-5">
-            <p>Age in weeks: &emsp; {dog?.ageInWeeks}</p>
-            <p>Breed: &emsp;{dog?.breed}</p>
-            <p>Color:&emsp;{dog?.color}</p>
-            <p>Sex: &emsp; {dog?.sex}</p>
-            <p>Weight: &emsp; {dog?.weight}</p>
+            <p>Age in weeks: {dog?.ageInWeeks}</p>
+            <p>Breed: {dog?.breed}</p>
+            <p>Color: {dog?.color}</p>
+            <p>Sex: {dog?.sex}</p>
+            <p>Weight: {dog?.weight}</p>
           </div>
         </div>
         <div className=" text-lg description text-center w-7/12">
