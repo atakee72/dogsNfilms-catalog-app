@@ -35,9 +35,11 @@ export default function Films() {
                     object-cover
                     src={film?.posterUrl}
                     alt="Film main image"
-                    onError={() => {
-                      // Fallback to a local image if the external image fails to load, in this case I wanna have more information about the  failure
-                      console.error(`Failed to load image: ${film?.posterUrl}`);
+                    onError={(e) => {
+                      console.error(
+                        `Failed to load image: ${film?.posterUrl}`,
+                        e
+                      );
                     }}
                   />
                 ) : (
