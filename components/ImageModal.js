@@ -25,7 +25,7 @@ const ImageModal = ({ src, alt }) => {
             className="absolute inset-0 bg-black opacity-75"
             onClick={handleImageClick}
           ></div>
-          <div className="relative">
+          <div className="relative flex flex-col items-center justify-between">
             <Image
               width={360}
               height={360}
@@ -33,7 +33,7 @@ const ImageModal = ({ src, alt }) => {
               alt={alt}
               className="md:max-w-screen-lg md:max-h-screen-3/4 mx-auto object-cover"
             />
-            <caption className="inline-block text-right bg-white text-black">
+            <caption className="inline-block text-center bg-white text-black">
               Click outside to close
             </caption>
           </div>

@@ -6,7 +6,7 @@ import dalmatians from "@/public/dalmatians.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const images = [dalmatians, graduate];
+const images = [graduate, dalmatians];
 
 const href = ["dogs-catalog", "films-catalog"];
 
