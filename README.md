@@ -21,6 +21,8 @@ Happy coding!
 ## Project Structure
 
 ```
+javascript
+
 dogs-catalog-app
 ├── .env
 ├── .eslintrc.json
